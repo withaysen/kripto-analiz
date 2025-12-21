@@ -1,8 +1,8 @@
-# CryptoWeather 🌤️
+# CryptoWeather
 
 **Kripto Hava Durumu** - Karmaşık kripto verilerini "Sağlık Skoru + Trafik Işığı" ile Grandma-proof özetleyen modern dashboard uygulaması.
 
-## 📋 İçindekiler
+##İçindekiler
 
 - [Amaç](#amaç)
 - [Tech Stack](#tech-stack)
@@ -15,13 +15,13 @@
 - [Troubleshooting](#troubleshooting)
 - [Lisans](#lisans)
 
-## 🎯 Amaç
+## Amaç
 
 CryptoWeather, teknik analiz bilmeyen kullanıcıların bile anlayabileceği şekilde kripto varlıkların sağlık durumunu özetler. Karmaşık verileri tek bir **Sağlık Skoru (0-100)** ve basit bir **Trafik Işığı (🟢/🟠/🔴)** ile sunar.
 
-> ⚠️ **Önemli:** Bu uygulama yatırım tavsiyesi vermez. Sadece risk/sağlık/uyarı dili kullanır.
+ **Önemli:** Bu uygulama yatırım tavsiyesi vermez. Sadece risk/sağlık/uyarı dili kullanır.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js 14 (App Router)
 - **Dil:** TypeScript
@@ -31,7 +31,7 @@ CryptoWeather, teknik analiz bilmeyen kullanıcıların bile anlayabileceği şe
 - **Grafikler:** Recharts (Donut Chart)
 - **Custom SVG:** Fear & Greed gauge (yarım daire progress)
 
-## ✨ Özellikler
+## Özellikler
 
 ### Ana Dashboard
 
@@ -76,7 +76,7 @@ CryptoWeather, teknik analiz bilmeyen kullanıcıların bile anlayabileceği şe
 - **Error Handling:** Türkçe hata mesajları
 - **Loading States:** shadcn Skeleton bileşenleri
 
-## 🚀 Kurulum
+## Kurulum
 
 ### Gereksinimler
 
@@ -127,7 +127,7 @@ npm start
 
 Ana sayfada coin aramadan Market Overview ve Market Pulse bölümleri görünür. Bu bölümler gerçek CoinGecko API'sinden veri çeker.
 
-## 🔌 API Notları
+## API Notları
 
 ### CoinGecko API
 
@@ -141,7 +141,7 @@ Ana sayfada coin aramadan Market Overview ve Market Pulse bölümleri görünür
 - `/api/marketpulse` - Market Pulse verileri (kategoriler, dominance, gainers/losers)
 - Coin arama şu anda mock data kullanıyor (gerçek API entegrasyonu roadmap'te)
 
-## 📁 Klasör Yapısı
+## Klasör Yapısı
 
 ```
 crypto-health-dashboard/
@@ -170,7 +170,7 @@ crypto-health-dashboard/
 └── package.json
 ```
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### Kısa Vadeli (v0.2)
 
@@ -194,7 +194,7 @@ crypto-health-dashboard/
    - Skor değişimlerinde bildirim
    - Email/push notification
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Rate Limit Hatası
 
@@ -231,7 +231,7 @@ crypto-health-dashboard/
 - Sadece **BTC**, **PEPE**, **SCAM** destekleniyor (büyük/küçük harf duyarsız)
 - Diğer coinler için gerçek API entegrasyonu gerekli (roadmap'te)
 
-## 📄 Lisans
+##  Lisans
 
 Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
 
